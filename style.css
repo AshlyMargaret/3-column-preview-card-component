@@ -15,8 +15,8 @@
 }
 
 
-body{
-    /* height: 100vh;  */
+/* body{
+  
      
     display: grid;
     grid-template-columns: 1fr; 
@@ -24,14 +24,16 @@ body{
     align-content: center;
     
 
-}
+} */
 
 main{
-    margin-top: 90px;
-     margin-bottom: 60px;
-    width: 900px;
+    
     display: flex;
     flex-direction: row; 
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: center;
+    margin: 90px 200px;
     border-radius: 25px;
     
 }
@@ -90,12 +92,10 @@ button{
 /* Media Query */
 
 @media(max-width: 414px){
-    main{
-        width: 300px;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        flex-direction: column;
-    }
+     main{
+       
+        margin: 90px 60px;
+    } 
 
     .sec1{
         background-color: var(--Brightorange);
