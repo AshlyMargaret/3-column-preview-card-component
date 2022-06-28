@@ -15,17 +15,6 @@
 }
 
 
-/* body{
-  
-     
-    display: grid;
-    grid-template-columns: 1fr; 
-    justify-items: center;
-    align-content: center;
-    
-
-} */
-
 main{
     
     display: flex;
@@ -74,11 +63,13 @@ button{
 }
 
 p{
+    font-family: 'Lexend Deca';
     color: var(--Transparentwhite-paragraphs);
     font-size: 15px;
 }
 
 h1{
+    font-family: 'Big Shoulders display';
     color: var(--Verylightgray-background-headings-buttons);
 }
 
