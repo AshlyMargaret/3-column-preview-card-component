@@ -16,7 +16,8 @@
 
 
 body{
-    height: 100vh; 
+    /* height: 100vh;  */
+     
     display: grid;
     grid-template-columns: 1fr; 
     justify-items: center;
@@ -26,6 +27,8 @@ body{
 }
 
 main{
+    margin-top: 60px;
+     margin-bottom: 60px;
     width: 900px;
     display: flex;
     flex-direction: row; 
@@ -89,6 +92,8 @@ button{
 @media(max-width: 414px){
     main{
         width: 300px;
+        margin-top: 60px;
+        margin-bottom: 60px;
         flex-direction: column;
     }
 
